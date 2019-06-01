@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sim's Kitchen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="chopchop.css" />
+    
+</head>
+<body>
+    <div class="main-container">
+        <header class="top-container">
+            <nav>
+                <h1 id="logo">sim'sKitchen.com</h1>
+                <ul class="menu-items">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Order</a></li>
+                    
+                </ul>
+                <div class="top-img">
+                    <img class="slider-img" src="images/banner1.jpg" alt="food">
+                </div>
+                <div class="welcome-msg">
+                    <p class="wel-head">Sim's Kitchen</p>
+                    <hr>
+                    <p class="wel-subhead">Good food, great taste..</h3>
+                    </br>
+                    <input id="menu" type="button" value="Our Menu">
+                    <input id="order" type="button" value="Order Now">
+                </div>
+            </nav>
+        </header>
+        <section class="about">
+            <div class="about-heading">
+                <h3 >Our Story</h3>
+                <hr>
+            </div>
+            
+            <div class="about-text">
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    os, corporis ipsa. Reiciendis totam nisi cumque facilis
+                    eligendi ipsa, enim quas culpa facere delectus voluptate,
+                    numquam corporis vero maiores asperiores quidem debitis
+                     deserunt similique amet rem quam!
+                    Delectus magni illum soluta sint tempora sit modi ipsum!</p>
+            </div>
+            <div class="about-img">
+                <img src="images/our-chef.jpg" alt="food">
+            </div>
+        </section>
+        <section class="menu">
+            <div class="menu-header">
+                <h3>Our Menu</h3>
+                <hr>
+                <p>Trill youself with delicious meals from our menu list</p>
+
+            </div>
+           
+            <div class="starters">
+                <img src="images/strawbery-orange.jpg" alt="">
+                <p class="menu-description">Starter</p>
+            </div>
+            <div class="main-course">
+                <img src="images/ganishing.jpg" alt="">
+                <p class="menu-description">Main - Meal</p>
+            </div>
+            <div class="desert">
+                <img src="images/noodles.jpg" alt="">
+                <p class="menu-description">Dessert</p>
+            </div>
+            <div class="breakfast">
+                <img src="images/noodles.jpg" alt="">
+                <p class="menu-description">Breakfast</p>
+                </div>
+           <section class="testimonials">
+               <h3>What people are saying about us</h3>
+               <hr>
+               <div class="test1">
+
+                    <p>I once order Sim Kitchen for my Birday party,
+                      <br>  The experience was awesome, they deliver on time,
+                      <br>the food was so so good. I will recommend them anyday
+                    </p>
+                    <img src="images/female-34.jpg" alt="">
+                    <h4>-Morin Asante-</h4>
+                    <p>Beauty Specialist</p>
+               </div>
+           </section>
+
+           <section class="order">
+               <div class="order-heading">
+                   <h3>Place your Order</h3>
+                   <hr>
+                
+               </div>
+               
+               <input type="date" name="" id="" required>
+               <select name="" id="time" required>
+                   <option value="">7am-8am</option>
+                   <option value="">8am-9am</option>
+                   <option value="">9am-10am</option>
+                   <option value="">10am-11am</option>
+                   <option value="">11am-12noon</option>
+                   <option value="">2pm-4am</option>
+               </select>
+               <select name="" id="number-of-people" required>
+                    <option value="">5 or less</option>
+                    <option value="">10 or less</option>
+                    <option value="">20 or less</option>
+                    <option value="">50 or less</option>
+                    <option value="">100 or less</option>
+                    <option value="">200 or less</option>
+                </select>
+               <input class="orderBtn" type="submit" value="Order Now" onclick="order()">
+
+               
+           </section>
+           <section class="contact-form">
+                <h3>Contact Us</h3>
+                <hr>
+                <input type="text" name="First Name" id="fname" placeholder="john" required>
+                <input type="email" name="email" id="email" placeholder="john@example.com"required>
+                <textarea name="message" id="msg" cols="30" rows="10" placeholder="message"></textarea>
+                 <input id="send" type="button" value="Send" onclick="send()">
+            </section>
+            <section class="footer">
+               <p>&copy;2019 SIM'SKITCHEN</p> 
+               
+               
+            </section>
+        </section>
+    </div>
+    
+    <script src="chopchop.js"></script>
+</body>
+</html>
